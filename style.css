@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', serif;
+}
+
+.hero-section{
+    width: auto;
+    height: 100vh;
+          background: linear-gradient(135deg, #0d1b2a, #1b263b, #415a77, #778da9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-hero-section{
+    width: 900px;
+    height: 550px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    
+}
+
