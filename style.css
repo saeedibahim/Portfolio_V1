@@ -25,9 +25,58 @@ body {
     backdrop-filter: blur(10px);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);    
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     padding: 2rem;
+    
+}
+
+.leftside-hero-section{
+    width: 50%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+
+.rightside-hero-section{
+    width: 50%;
+    align-items: center;
+    text-align: left;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-img{
+    border-radius: 50%;
+    max-width: 250px;
+    margin: auto;
+    border: 3px solid;
+    border-color: #415a77;
+    align-items: center;
+}
+
+.cta-hero-section{
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    margin: 20px;
+    width: 120px;
+    height: 40px;
+    background-color:#1b263b;
+    border-color: #1b263b;
+    border-width: 0cap;
+    border-radius: 8px;
+    color: antiquewhite;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+button:hover{
+    background-color:#2c3d5e;
+    border-color: #2c3d5e;
+    transform: scale(1.05);
     
 }
 
