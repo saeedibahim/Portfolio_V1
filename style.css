@@ -10,7 +10,7 @@ body {
 
 .hero-section{
     width: auto;
-    height: 100vh;
+    height: auto;
           background: linear-gradient(135deg, #0d1b2a, #1b263b, #415a77, #778da9);
     display: flex;
     justify-content: center;
@@ -18,8 +18,10 @@ body {
 }
 
 .container-hero-section{
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 900px;
-    height: 550px;
+    height: 400px;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 20px;
     backdrop-filter: blur(10px);
@@ -80,3 +82,87 @@ button:hover{
     
 }
 
+#hero-p{
+    margin-top: 20px;
+}
+
+.about-me{
+    width: auto;
+    height: auto;
+    background-color:cadetblue;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.container-about-me{
+    background-color:cadetblue;
+    width: 70% ;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
+}
+
+#about-me-text{
+    width: 70%;
+}
+
+.services{
+    width: auto;
+    height: fit-content;
+    background-color: #415a77;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.container-services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    margin: 3px;
+    height: 100px;   
+    align-items: center;
+    padding: 5px;
+    width: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:750px){
+    .container-hero-section{
+        flex-direction: column;
+        
+    }
+}
